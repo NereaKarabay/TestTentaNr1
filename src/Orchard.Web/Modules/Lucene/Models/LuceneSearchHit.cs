@@ -3,6 +3,8 @@ using Lucene.Net.Documents;
 using Orchard.Indexing;
 
 namespace Lucene.Models {
+
+    //Lägger en kommentar här!!!!!!
     public class LuceneSearchHit : ISearchHit {
         private readonly Document _doc;
         private readonly float _score;
