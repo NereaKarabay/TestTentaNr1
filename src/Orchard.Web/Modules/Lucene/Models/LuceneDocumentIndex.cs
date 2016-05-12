@@ -10,6 +10,8 @@ namespace Lucene.Models {
 
     public class LuceneDocumentIndex : IDocumentIndex {
 
+        //Jag vill lära mig mer om DevOps
+
         public List<AbstractField> Fields { get; private set; }
 
         private string _name;
